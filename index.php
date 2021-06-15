@@ -17,20 +17,7 @@ else{
     echo "error";
 }
 
-$dbhost1='sql310.epizy.com';
-$dbuser1='epiz_28691799';
-$dbpass1='';
-$dbname1='epiz_28691799_wp';
-$con1=mysqli_connect($dbhost1,$dbuser1,$dbpass1,$dbname1);
 
-
-
-if($con1){
-    echo "Connection  one is Successful";
-}
-else{
-    echo "error".mysqli_connect_error();
-}
 ?>
 
 <?php
